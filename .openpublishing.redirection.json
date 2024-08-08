@@ -1,6 +1,70 @@
 {
   "redirections": [
     {
+      "source_path": "docs-conceptual/partnercenterps-2.0/authenticate.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/authenticate",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-2.0"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-2.0/breaking-changes.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/breaking-changes",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-2.0"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-2.0/get-started.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/get-started",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-2.0"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-2.0/install.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/install",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-2.0"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-2.0/multi-factor-auth.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/multi-factor-auth",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-2.0"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-2.0/overview.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/overview",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-2.0"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-2.0/release-notes.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/release-notes",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-2.0"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-2.0/test-partner-security-requirements.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/test-partner-security-requirements",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-2.0"
+      ]
+    },
+    {
       "source_path": "secure-app-model.md",
       "redirect_url": "multi-factor-auth",
       "redirect_document_id": true
