@@ -1,6 +1,38 @@
 {
   "redirections": [
     {
+      "source_path": "docs-conceptual/partnercenterps-1.5/install.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/install",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-1.5"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-1.5/multi-factor-auth.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/multi-factor-auth",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-1.5"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-1.5/overview.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/overview",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-1.5"
+      ]
+    },
+    {
+      "source_path": "docs-conceptual/partnercenterps-1.5/secure-app-model.md",
+      "redirect_url": "/previous-versions/partner-center-powershell/partnercenter/secure-app-model",
+      "redirect_document_id": false,
+      "monikers": [
+        "partnercenterps-1.5"
+      ]
+    },
+    {
       "source_path": "secure-app-model.md",
       "redirect_url": "multi-factor-auth",
       "redirect_document_id": true
