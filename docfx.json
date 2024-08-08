@@ -13,28 +13,28 @@
           "toc.yml"
         ],
         "src": "breadcrumb",
-        "version": "partnercenterps-1.5",
-        "dest": "partnercenter/breadcrumb"
+        "dest": "partnercenter/breadcrumb",
+        "version": "partnercenterps-1.5"
       },
       {
         "files": [
           "toc.yml"
         ],
         "src": "partnercenterps-1.5",
-        "version": "partnercenterps-1.5",
-        "dest": "module/partnercenter"
+        "dest": "module/partnercenter",
+        "version": "partnercenterps-1.5"
       },
       {
         "files": [
           "**/*.yml"
         ],
-        "src": "partnercenterps-1.5",
-        "version": "partnercenterps-1.5",
         "exclude": [
           "toc.yml",
           "docs-conceptual/**"
         ],
-        "dest": "module"
+        "src": "partnercenterps-1.5",
+        "dest": "module",
+        "version": "partnercenterps-1.5"
       },
       {
         "files": [
@@ -42,36 +42,36 @@
           "**/*.md"
         ],
         "src": "docs-conceptual/partnercenterps-1.5",
-        "version": "partnercenterps-1.5",
-        "dest": "partnercenter"
+        "dest": "partnercenter",
+        "version": "partnercenterps-1.5"
       },
       {
         "files": [
           "toc.yml"
         ],
         "src": "breadcrumb",
-        "version": "partnercenterps-2.0",
-        "dest": "partnercenter/breadcrumb"
+        "dest": "partnercenter/breadcrumb",
+        "version": "partnercenterps-2.0"
       },
       {
         "files": [
           "toc.yml"
         ],
         "src": "partnercenterps-2.0",
-        "version": "partnercenterps-2.0",
-        "dest": "module/partnercenter"
+        "dest": "module/partnercenter",
+        "version": "partnercenterps-2.0"
       },
       {
         "files": [
           "**/*.yml"
         ],
-        "src": "partnercenterps-2.0",
-        "version": "partnercenterps-2.0",
         "exclude": [
           "toc.yml",
           "docs-conceptual/**"
         ],
-        "dest": "module"
+        "src": "partnercenterps-2.0",
+        "dest": "module",
+        "version": "partnercenterps-2.0"
       },
       {
         "files": [
@@ -79,36 +79,36 @@
           "**/*.md"
         ],
         "src": "docs-conceptual/partnercenterps-2.0",
-        "version": "partnercenterps-2.0",
-        "dest": "partnercenter"
-      },      
+        "dest": "partnercenter",
+        "version": "partnercenterps-2.0"
+      },
       {
         "files": [
           "toc.yml"
         ],
         "src": "breadcrumb",
-        "version": "partnercenterps-3.0",
-        "dest": "partnercenter/breadcrumb"
+        "dest": "partnercenter/breadcrumb",
+        "version": "partnercenterps-3.0"
       },
       {
         "files": [
           "toc.yml"
         ],
         "src": "partnercenterps-3.0",
-        "version": "partnercenterps-3.0",
-        "dest": "module/partnercenter"
+        "dest": "module/partnercenter",
+        "version": "partnercenterps-3.0"
       },
       {
         "files": [
           "**/*.yml"
         ],
-        "src": "partnercenterps-3.0",
-        "version": "partnercenterps-3.0",
         "exclude": [
           "toc.yml",
           "docs-conceptual/**"
         ],
-        "dest": "module"
+        "src": "partnercenterps-3.0",
+        "dest": "module",
+        "version": "partnercenterps-3.0"
       },
       {
         "files": [
@@ -116,8 +116,8 @@
           "**/*.md"
         ],
         "src": "docs-conceptual/partnercenterps-3.0",
-        "version": "partnercenterps-3.0",
-        "dest": "partnercenter"
+        "dest": "partnercenter",
+        "version": "partnercenterps-3.0"
       }
     ],
     "resource": [
@@ -132,31 +132,6 @@
         ]
       }
     ],
-    "versions": {
-      "partnercenterps-1.5": {
-        "dest": "partnercenterps-1.5"
-      },
-      "partnercenterps-2.0": {
-        "dest": "partnercenterps-2.0"
-      },
-      "partnercenterps-3.0": {
-        "dest": "partnercenterps-3.0"
-      } 
-    },
-    "filemetadata": {
-      "enable_powershell_try_it": {
-        "partnercenterps-*/**/*.yml": false
-      },
-      "ms.date": {
-        "partnercenterps-1.5/**/*.yml": "12/19/2019",
-        "partnercenterps-2.0/**/*.yml": "01/10/2020",
-        "partnercenterps-3.0/**/*.yml": "01/29/2020"
-      },
-      "ms.topic": {
-        "docs-conceptual/**/*.md": "article",
-        "partnercenterps-*/**/*.yml": "reference"
-      }
-    },
     "globalMetadata": {
       "author": "isaiahwilliams",
       "apiPlatform": "powershell",
@@ -175,9 +150,43 @@
       "ms.subservice": "partnercenter-sdk",
       "showPowerShellPicker": "true",
       "uhfHeaderId": "MSDocsHeader-Partner-Center",
-      "searchScope": ["Partner Center", "Partner Center developer resources","Partner Center PowerShell"] 
+      "searchScope": [
+        "Partner Center",
+        "Partner Center developer resources",
+        "Partner Center PowerShell"
+      ]
     },
-    "dest": "partnercenterps",
-    "markdownEngineName": "markdig"
+    "fileMetadata": {
+      "enable_powershell_try_it": {
+        "partnercenterps-*/**/*.yml": false
+      },
+      "ms.date": {
+        "partnercenterps-1.5/**/*.yml": "12/19/2019",
+        "partnercenterps-2.0/**/*.yml": "01/10/2020",
+        "partnercenterps-3.0/**/*.yml": "01/29/2020"
+      },
+      "ms.topic": {
+        "docs-conceptual/**/*.md": "article",
+        "partnercenterps-*/**/*.yml": "reference"
+      },
+      "exclude_monikers": {
+        "docs-conceptual/partnercenterps-3.0/**/*.md": [
+          "partnercenterps-3.0"
+        ]
+      }
+    },
+    "markdownEngineName": "markdig",
+    "versions": {
+      "partnercenterps-1.5": {
+        "dest": "partnercenterps-1.5"
+      },
+      "partnercenterps-2.0": {
+        "dest": "partnercenterps-2.0"
+      },
+      "partnercenterps-3.0": {
+        "dest": "partnercenterps-3.0"
+      }
+    },
+    "dest": "partnercenterps"
   }
 }
